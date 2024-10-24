@@ -1,6 +1,5 @@
 import math
 
-
 # Representation of a price in integer dollars and cents.
 class Price:
     # Initialize a new Price object.
@@ -9,7 +8,6 @@ class Price:
     def __init__(self, dollars: int, cents: int):
         self.dollars = dollars
         self.cents = cents
-
 
     # Provide a developer-friendly string representation of the object.
     # input: Price for which a string representation is desired. 
